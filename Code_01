@@ -1,4 +1,5 @@
-c class acad {
+
+public class acad {
 
 public static void main (String[] args){
 	int x=20,y=55;
@@ -8,7 +9,7 @@ public static void main (String[] args){
 	
 	System.out.println("First Number is:" +x);
 	System.out.println("Second Number is:" +y);
-	System.out.println("Sum of Number is:" +x);
+	System.out.println("Sum of two Number is:" +z);
 }
 }
 
