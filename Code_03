@@ -1,0 +1,20 @@
+mport java.util.Scanner;
+
+public class acad {
+ public static void sum(){
+		Scanner reader=new Scanner(System.in);
+		
+		System.out.println("First Number is:");
+		int x= reader.nextInt();
+		System.out.println("Second Number is:");
+		int y= reader.nextInt();
+		
+		int z=x+y;
+		
+		System.out.println("Sum is: " +z);
+ }
+public static void main (String[] args){
+sum();
+}
+}
+
