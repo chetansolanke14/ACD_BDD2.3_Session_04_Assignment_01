@@ -1,0 +1,52 @@
+mport java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class acad {
+
+public static void main (String[] args) throws InputMismatchException{
+	
+	Scanner reader=new Scanner(System.in);
+	System.out.println("Higher Number is:");
+	int x= reader.nextInt();
+	System.out.println("Lower Number is:");
+	int y= reader.nextInt();
+	
+	
+	int z=0,c=1;
+	
+		if (y%2==0){
+			 System.out.println("EVEN numbers are ");
+             for (int i=y;z<x;i+=2)
+             {
+                     z=i+2;
+                   
+                     System.out.println(z);
+             }
+             System.out.println("ODD numbers are ");
+             for (int i=y;c<x-1;i+=2)
+             {
+                    
+                     c=i+1;
+                     System.out.println(c);
+             }
+             
+
+		}else {
+			System.out.println("ODD numbers are ");
+            for (int i=y;z<x;i+=2)
+            {
+                    z=i+2;
+                  
+                    System.out.println(z);
+            }
+            System.out.println("EVEN numbers are ");
+            for (int i=y;c<x;i+=2)
+            {
+                   
+                    c=i+1;
+                    System.out.println(c);
+        }
+		}
+	}
+ 
+}
