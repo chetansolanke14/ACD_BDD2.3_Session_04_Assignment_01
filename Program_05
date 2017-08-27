@@ -1,0 +1,18 @@
+mport java.util.*;
+
+public class Multiplication {
+
+	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in); 
+		System.out.println("Enter the Number Between 0 to 10 for multiple table");
+		int n=reader.nextInt();
+		System.out.println("Multiple of " +n);
+		for (int i=1;i<=10;i++)
+		{
+			int z=i*n;
+			System.out.println(z);
+		}
+	}
+
+}
+
