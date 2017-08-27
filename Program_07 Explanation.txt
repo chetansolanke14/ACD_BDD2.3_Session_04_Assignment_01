@@ -1,0 +1,9 @@
+7) Can you overload a method with same return type.? Explain your answer with proper logic?
+
+Answer:
+
+No,User can use same methods with same return type. as method overloading only concerns parameter mention in the method.
+Having two or more mathods in a class with the exact same name but different parameter types or different number of parameters or both.
+Compiler does not indicate the return types of your methods,so user can use same return type as shown in the Program_06 and 
+Screenshot_Program 06 (Please refer to the attched ), here
+i have used same Return type (int) in both the method (sum() and sum(int,int)).
